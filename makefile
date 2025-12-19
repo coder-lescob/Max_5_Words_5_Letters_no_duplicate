@@ -3,6 +3,9 @@ CC    := gcc
 SRC   := src
 BUILD := build
 
+.PHONY: all
+all: clean build run
+
 .PHONY: clean
 clean:
 	@rm $(BUILD)/main
