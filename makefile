@@ -12,7 +12,7 @@ clean:
 
 .PHONY: build
 build:
-	@$(CC) $(SRC)/main.c -o $(BUILD)/main
+	@$(CC) $(SRC)/main.c -g -o $(BUILD)/main
 
 .PHONY: run
 run:
